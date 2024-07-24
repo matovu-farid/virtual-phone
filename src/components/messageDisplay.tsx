@@ -1,7 +1,6 @@
 
 
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Alert } from "@/components/ui/alert";
 
 function MessageDisplay() {
   return (
@@ -16,11 +15,6 @@ function MessageDisplay() {
           </p>
         </CardContent>
       </Card>
-      <Alert variant="info" className="p-4 bg-blue-100 border-l-4 border-blue-500">
-        <p className="text-blue-700">
-          This is an info alert message.
-        </p>
-      </Alert>
     </div>
   );
 }
